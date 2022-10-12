@@ -1,0 +1,134 @@
+
+.imge {
+  height: 100px;
+  position: relative;
+  max-width: 1296px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.contens1 {
+width: 1231.19px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.about-me {
+  width: 350px;
+  position: absolute;
+  top: 30px;
+  right: 420px;
+
+}
+
+.contens-inner {
+  background-color: #dddd;
+  width: 1205.55px; 
+  height: 499.06px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hello {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hello p {
+  float: right;
+  padding-top: 200px;
+}
+
+.hello h1 {
+  font-size: 70px;
+  padding-top: 250px;
+  padding-left: 100px;
+}
+
+.hello h4 {
+  padding-left: 100px;
+}
+
+.career {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.career h2 {
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+.text1 {
+  padding-bottom: 15px;
+  padding-top: 3px;
+  letter-spacing: 1;
+}
+
+.career-left {
+  text-transform: uppercase;
+}
+
+.photo img{
+  width: 350px;
+}
+
+.photo h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 70px;
+}
+
+.photo h2::after {
+  content: '';
+  display: block;
+  background-color: #000000;
+  width: 60px;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-conteiner {
+  display: flex;
+  padding-top: 100px;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 200px;
+}
+
+.flex-conteiner li {
+  padding-left: 30px;
+}
+
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 100px;
+}
+
+.section h4 {
+  padding-top: 100px;
+  font-size: small;
+  font-weight: 400;
+}
+
+.section h3 {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
